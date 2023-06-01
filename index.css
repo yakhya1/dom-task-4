@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+#text {
+    border-radius: 6px;
+    width: 90%;
+    height: 33px;
+}
+.x {
+    border-radius: 5px;
+    background-color: coral;
+    height: 33px;
+    width: 8%;
+    
+}
+main{
+    width: 400px;
+    margin: auto;
+}
+
+ul li {
+    display: flex;
+    width: 395px;
+    justify-content: space-between;
+    height: 33px;
+    padding: 0px;
+    align-items: center;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+
+ul {
+    padding: 0px;
+}
