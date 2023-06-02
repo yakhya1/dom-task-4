@@ -26,4 +26,15 @@ button.addEventListener("click", (e)=> {
   li.append(deleteButton);
   li.style.listStyle = "none"
     input.value = ""
-})
+   
+    checkBox.addEventListener("click", (e) =>{
+    
+    if(checkBox.checked === true){
+      p.style.textDecoration ="line-through"
+    }else if(checkBox.checked === false){
+      p.style.textDecoration ="none"
+    };
+    
+   
+  });
+})  
